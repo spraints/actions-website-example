@@ -2,10 +2,11 @@
   "scripts": {
     "build": "next build",
     "dev": "next",
-    "lint": "",
-    "now-build": "next build",
     "format-check": "prettier --check '{pages,components}/**/*.js'",
-    "format-fix": "prettier --write '{pages,components}/**/*.js'"
+    "format-fix": "prettier --write '{pages,components}/**/*.js'",
+    "lint": "eslint components pages",
+    "now-build": "next build",
+    "test": "node tests/test.js"
   },
   "dependencies": {
     "next": "^8.0.0",
