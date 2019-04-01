@@ -1,5 +1,6 @@
-import Link from "next/link";
-import Header from "../components/header";
+import React from 'react'
+import Link from 'next/link'
+import Header from '../components/header'
 
 function Index() {
   return (
@@ -11,7 +12,7 @@ function Index() {
         </Link>
       </section>
     </main>
-  );
+  )
 }
 
-export default Index;
+export default Index
