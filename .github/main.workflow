@@ -1,4 +1,4 @@
-workflow "test, lint, format" {
+workflow "test, lint, formatz" {
   resolves = [
     "test",
     "lint",
