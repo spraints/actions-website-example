@@ -1,10 +1,10 @@
-workflow "New workflow" {
-  on = "push"
+workflow "test, lint, format" {
   resolves = [
     "test",
     "lint",
     "format",
   ]
+  on = "push"
 }
 
 action "install" {
